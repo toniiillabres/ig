@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+<aside>
+    <h1>Instagram</h1>
+    <nav>
+        <ul>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+        </ul>
+    </nav>
+</aside>
+<header>
+    <div id="barra">
+        <button>X</button>
+    </div>
+    <div id="menu-mobile">
+    <h1>Instagram</h1>
+    <nav>
+        <ul>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <img src="./fotos/luna.jpg" alt="logo home">
+                <a href="">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <img src="./fotos/luna.jpg" alt="logo home">
+        <a href="">More</a>
+    </div>
+    </div>
+</header>
+
+<main>
+    <header>
+        <img src="fotos/luna.jpg" alt="foto perfil">
+        <div>
+            <p>uibuniversitat</p>
+            <button>following</button>
+            <button>message...</button>
+        </div>
+        <div>
+            <p>1,355 posts</p>
+            <p>10,3k followers</p>
+            <p>284 following</p>
+        </div>
+        <div>
+            <p>UIB</p>
+            <p>Collage & university<text-overflow:clip;p>
+            <p>Universitat de les Illes Balears - UIB. Número oficial de registre. UIBI001</p>
+        </div>
+        <div>
+
+        </div>
+    </header>
+    <div>
+        <div>
+            <img src="fotos/luna.jpg" alt="historia">
+            <span>Ara interessa</span>
+        </div>
+        <div>
+            <img src="fotos/luna.jpg" alt="historia">
+            <span>Participa</span>
+        </div>
+        <div>
+            <img src="fotos/luna.jpg" alt="historia">
+            <span>Agenda</span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <a href="#"><img src="fotos/luna.jpg" alt="posts"> POSTS</a>
+            <a href="#"><img src="fotos/luna.jpg" alt="reels"> REELS</a>
+            <a href="#"><img src="fotos/luna.jpg" alt="tagged"> TAGGED</a>
+        </div>
+        <div>
+            <img src="fotos/homo.jpg" alt="foto">
+            <img src="fotos/luna.jpg" alt="foto">
+            <img src="fotos/luna.jpg" alt="foto">
+            <img src="fotos/luna.jpg" alt="foto">
+            <img src="fotos/luna.jpg" alt="foto">
+            <img src="fotos/luna.jpg" alt="foto">
+        </div>
+    </div>
+
+</main>
+<script>
+    document.querySelector("#barra button").addEventListener('click',function(){
+        const mobile = document.querySelector('#menu-mobile');
+        const visible = mobile.style.display!=='none';
+        if(visible){
+            mobile.style.display = 'block';
+        } else {
+            mobile.style.display = 'none';
+        }
+    })
+</script>
+</body>
+</html>
